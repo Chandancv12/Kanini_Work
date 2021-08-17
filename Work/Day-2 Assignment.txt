@@ -1,0 +1,32 @@
+user :
+user_ id(p),name,email,password,
+
+Rakhi:
+ user_id(f),rahki gifts,rakhi type(p),relation,rakhi to international,quantity,price
+
+cakes :
+ user_id(f),cake type(p),flavour,quantity,price
+
+flowers :
+user_id(f),flower name(p),color,quantity,price
+
+plants :
+user_id(f) ,plants type(P),price,quanity
+
+Birthday:
+user_id(f),rakhi type(f),cake type(f),flower name(f),plants type(f),Realation _type
+
+Anniversary:
+user_id(f),gift type(p),price
+
+order_summary:
+user_id(f),order_id(p),total amount,GST
+
+Payments :
+order_id(f),payment type,time,reward
+
+Delivery Agencie:
+Deliv_id(p),name,address
+
+Track_oder:
+Deliver_id(f),order_id(f),user_id(f)
